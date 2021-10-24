@@ -1,0 +1,258 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+* {
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+}
+.padding-header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 107px;
+    background-color: #fff;
+    border-bottom: 4px solid #ed345b;
+}
+.header{
+    margin: 0;
+    width: 1200px;
+    display: flex;
+    position: relative;
+    left: 180px;
+    overflow: hidden;
+}
+.logo{
+    height: auto;
+    margin: 21px 0;
+}
+.menu{
+    color: #6c6c6c;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    position:absolute;
+    top: 30%;
+    left: 230px;
+}
+.index{
+    width: 100%;
+    height: 100%;
+
+}
+.banner{
+    height: auto;
+    width: 100%;
+    margin: 107px auto 0 auto;
+}
+.body{
+    width: 1250px;
+    height: 100%;
+}
+.title-group{
+    overflow: hidden;
+    border-bottom:1px solid #c1c1c1 ;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.title{
+    float: left;
+    color: #363636;
+    font-size: 20px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.more{
+    float: right;
+    color: #868686;
+    font-size: 18px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.content-group{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    -webkit-justify-centent:right;
+}
+.content-group a{
+    color: inherit;
+}
+
+.part{
+    float: left;
+    background-color:whitesmoke;
+    padding:14px;
+    margin-bottom: 17px;
+    margin-right: 10px;
+}
+.part a{
+    color: inherit;
+}
+.img{
+    width: auto;
+    height: auto;
+}
+.subject-line{
+    float: left;
+    background-color:whitesmoke;
+    padding:10px;
+    margin-bottom: 35px;
+    margin-right: 22px;
+}
+.subject{
+    width:auto;
+    height: auto;
+}
+.good-groups{
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.good{
+    float: left;
+    width: 160px;
+    margin: 0 12px;
+}
+.img2{
+    width: 125px;
+    height: 125px;
+    margin: 7px auto;
+}
+.good-title{
+    color: #111;
+    font-size: 12px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+}
+.price{
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+.group-price{
+    color: #111;
+    font-size: 16px;
+}
+.market-price{
+    color: #cbcbcb;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+.footer{
+    background-color: whitesmoke;
+    padding-top: 60px;
+    width: 100%;
+    position: relative;
+    top: 1800px;
+}
+.foot-head{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-grow: nowrap;
+}
+.code-group{
+    float: left;
+    width: 666px;
+    display: flex;
+    flex-grow: nowrap;
+    border-right: 1px solid #4d4d4d;
+}
+.code{
+    width: 162px;
+    height: 162px;
+    margin-right:60px;
+    text-align: center;
+}
+.contact-group{
+    padding-left: 15px;
+    width: 410px;
+}
+.line1{
+    color: #4d4d4d;
+    line-height: 24px;
+    font-size: 24px;
+}
+.line2{
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: 20px;
+}
+.foot-body{
+    margin: 0 auto;
+    margin-bottom: 58px;
+    margin-top: 60px;
+    max-width: 1200px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+ul{
+    list-style-type: disc;
+}
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+.list{    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.list a{
+    color: black;
+}
+.list-item{
+    border-right: 1px solid #c1c1c1;
+    color: #c1c1c1;
+    
+}
+.copyright{
+    background-color: #3f3e3e;
+    height: 130px;
+    font-size: 14px;
+    line-break: 1;
+    text-align: center;
+    color: #b1b1b1;
+}
+.copyright a{
+    color: #b1b1b1;
+}
+.foot1{
+    padding-top: 27px;
+}
+.foot2{
+    padding: 17px 0;
+}
+.foot3{
+    text-indent: 25px;
+}
+.foot4{
+    position: relative;
+}
+.foot5{
+    margin-left: 15px;
+    padding-right: 10px;
+}
+.foot6{
+    margin-right: 15px;
+    padding-left: 10px;
+    border-left: 1px solid #b1b1b1;
+}
+.weiquan{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    height: 60px;
+}
